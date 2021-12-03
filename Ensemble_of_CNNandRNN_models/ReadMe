@@ -1,3 +1,0 @@
-This folder contains the Ensemble models of CNN and RNN.
-For CNN models, we have ensembled ResNet50, ResNet152, ResNeXt50 and ResNeXt101 each with LSTM model.
-The models are trained using anyofthemodel_ModelTrain.ipynb files and prediction on test datset is made using respective anyofthemodel_Predict.ipynb file.

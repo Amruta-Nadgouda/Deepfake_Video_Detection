@@ -1,7 +1,7 @@
 # Deepfake_Video_Detection
 
 
-# Ensemble of CNN and RNN models
+### Ensemble of CNN and RNN models
 
 This directory has the CNN models such as ResNet50, ResNet152, ResNeXt50 and ResNeXt101, each ensembled with LSTM model.
 

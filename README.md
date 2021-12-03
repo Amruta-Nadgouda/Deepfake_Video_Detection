@@ -16,3 +16,14 @@ This directory has the CNN models such as ResNet50, ResNet152, ResNeXt50 and Res
 ResXX_ModelTrain.ipynb files shows how to train the model and respective ResXX_Predict.ipynb files show how to use checkpoints to make predictions on the test data.
 
 Model checkpoints can be found here: https://drive.google.com/drive/folders/16OANq0C_USZ66C5TX4HQcZsDFPk5bKs1?usp=sharing
+
+### MesoNet models and ensemble
+
+The MesoFinal.ipnyb file shows how to preprocess, generate tensor images and train Meso4 and MesoInception4 models and make predictions on the DFDC test dataset. 
+
+The file Ensemble.ipnyb has the code for stacked ensemble of Meso4 and MesoInception4 models.
+
+Trained MesoNet models can found in the saved folder of the HPC here: 
+/scratch/cmpe295-guzun/deepfake/dfdc/train/model/Meso4_12ktrained-model-val2 (Meso4 trained model)
+/scratch/cmpe295-guzun/deepfake/dfdc/train/model/MesoI_12ktrained-model-val (MesoI trained model)
+

@@ -16,6 +16,8 @@ The link for the entire dfdc dataset is https://ai.facebook.com/datasets/dfdc/
 
 For download, an aws account with IAM role is needed. 
 
+The dataset was preprocessed using the preprocessing_validfiles.ipynb
+
 The preprocessed videos can be found in hpc in the path 
 
 /scratch/cmpe295-guzun/deepfake/dfdc/train/face_only_16k -> preprocessed  16k videos for (CNN+RNN and MesoNet) (split into train and validation)

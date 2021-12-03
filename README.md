@@ -1,9 +1,13 @@
 # Deepfake_Video_Detection
 
-Deepfake (derived from “deep learning” and “fake”) media refers to fictional images, videos, and audios synthesized by manipulating original media. The detection of such falsified content is imperative for authenticity verification and risk mitigation.
-Our research explored the usage of machine learning/deep learning techniques to detect whether a video is a deepfake or real.
+Deepfake (derived from “deep learning” and “fake”) media refers to fictional images, videos, and audios synthesized by manipulating original media. The detection of such falsified content is imperative for authenticity verification and risk mitigation. Our research explored the usage of machine learning/deep learning techniques to detect whether a video is a deepfake or real.
+
 The study adopted a two-pronged approach for the video classification task: analysis of temporal and visual inconsistencies across video frames.
-The former method was achieved by implementing an ensemble of Convolutional Neural Network (CNN) such as ResNet and its variants and Recurrent Neural Network such as Long Short Term Memory (LSTM) model, while the latter was addressed by employing MesoNet model architectures Meso-4, MesoInception-4 and their ensemble. The models were trained, evaluated, and tested on the Deepfake Detection Challenge dataset (DFDC). The performance metrics such as accuracy, recall, precision, and F-1 scores were calculated to assess the efficacy of the models in detecting the deepfake videos.
+For Temporal Features: We implement an ensemble of Convolutional Neural Network (CNN) such as ResNet and its variants and Recurrent Neural Network such as Long Short Term Memory (LSTM) model.
+
+For Visual Inconsistencies: We employ MesoNet model architectures Meso-4, MesoInception-4 and their ensemble.
+
+The models were trained, evaluated, and tested on the Deepfake Detection Challenge dataset (DFDC). The performance metrics such as accuracy, recall, precision, and F-1 scores were calculated to assess the efficacy of the models in detecting the deepfake videos.
 
 ### Ensemble of CNN and RNN models
 

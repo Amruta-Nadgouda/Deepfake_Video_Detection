@@ -19,7 +19,7 @@ Model checkpoints can be found here: https://drive.google.com/drive/folders/16OA
 
 ### MesoNet models and ensemble
 
-The MesoFinal.ipnyb file shows how to preprocess, generate tensor images and train Meso4 and MesoInception4 models and make predictions on the DFDC test dataset. 
+All files related to MesoNet can be found in the folder MesoNet & Ensemble. The MesoFinal.ipnyb file shows how to preprocess, generate tensor images and train Meso4 and MesoInception4 models and make predictions on the DFDC test dataset. 
 
 The file Ensemble.ipnyb has the code for stacked ensemble of Meso4 and MesoInception4 models.
 

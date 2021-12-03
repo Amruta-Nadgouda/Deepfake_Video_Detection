@@ -26,5 +26,6 @@ The file Ensemble.ipnyb has the code for stacked ensemble of Meso4 and MesoIncep
 Trained MesoNet models can found in the saved folder of the HPC here: 
 
 /scratch/cmpe295-guzun/deepfake/dfdc/train/model/Meso4_12ktrained-model-val2 (Meso4 trained model)
+
 /scratch/cmpe295-guzun/deepfake/dfdc/train/model/MesoI_12ktrained-model-val (MesoI trained model)
 
